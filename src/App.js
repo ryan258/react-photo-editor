@@ -1,12 +1,16 @@
 import React from "react";
 import "./App.css";
 import Slider from "./components/Slider";
+import SidebarItem from "./components/SidebarItem";
 
 function App() {
   return (
     <div className="container">
       <div className="main-image" />
-      <div className="sidebar">Sidebar</div>
+      <div className="sidebar">
+        <SidebarItem />
+        <SidebarItem />
+      </div>
       <Slider />
     </div>
   );
